@@ -35,7 +35,7 @@ class GreetingController( name : String ) {
    */
   @RequestMapping( value = Array({ "/" }),
                    method = Array(RequestMethod.GET) )
-  def Greet() = "Hello Welcome to SJSU\n"
+  def Greet() = "Hello World!\””
 }
 
 /**
